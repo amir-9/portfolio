@@ -1,6 +1,6 @@
 import "./App.scss";
 import { Navbar } from "./components";
-import { About, Footer, Skills, Header, Work, Testimonials } from "./container";
+import { About, Footer, Skills, Header, Work, Testimonial } from "./container";
 function App() {
   return (
     <div className="app">
@@ -9,7 +9,7 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonials />
+      <Testimonial />
       <Footer />
     </div>
   );
